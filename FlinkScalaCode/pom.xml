@@ -53,7 +53,14 @@
       <groupId>org.scala-lang</groupId>
       <artifactId>scala-reflect</artifactId>
       <version>${scala.version}</version>
-    </dependency> <!-- slf4j&log4j 日志相关包 -->
+    </dependency>
+    <!-- Flink Web UI依赖包 -->
+    <dependency>
+      <groupId>org.apache.flink</groupId>
+      <artifactId>flink-runtime-web</artifactId>
+      <version>${flink.version}</version>
+    </dependency>
+    <!-- slf4j&log4j 日志相关包 -->
     <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-log4j12</artifactId>
